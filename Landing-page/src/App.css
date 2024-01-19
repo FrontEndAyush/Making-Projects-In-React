@@ -1,0 +1,133 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+:root {
+  --red: #d01c28;
+  --gray: #2e2e2e;
+}
+.container {
+  height: 100vh;
+}
+nav {
+  display: flex;
+  max-width: 1280px;
+
+  justify-content: space-between;
+  margin: auto;
+  align-items: center;
+  height: 72px;
+}
+.tabs ul {
+  display: flex;
+  gap: 24px;
+
+  list-style: none;
+  cursor: pointer;
+}
+.tabs ul li {
+  font-weight: 600;
+  font-size: 15px;
+}
+
+.nav-btn button {
+  all: unset;
+  padding: 5px 15px;
+  background: var(--red);
+  color: white;
+  border-radius: 5px;
+}
+.hero {
+  display: flex;
+  max-width: 1225px;
+  height: calc(100vh - 72px);
+  margin: 0 auto;
+  /* padding: 0px 30px; */
+  align-items: center;
+  justify-content: center;
+}
+.hero .slogan {
+  margin-bottom: 36px;
+}
+.hero .slogan h1 {
+  font-size: 108px;
+  line-height: 102px;
+  color: var(--gray);
+}
+.about p {
+  opacity: 0.7;
+  font-size: 16px;
+}
+.hero-sec-btn {
+  background: transparent;
+}
+.hero-btn button {
+  all: unset;
+  padding: 5px 15px;
+  background: var(--red);
+  color: white;
+  margin-right: 29px;
+  border-radius: 5px;
+}
+.hero .about {
+  width: 404px;
+  margin-bottom: 36px;
+}
+.hero .hero-btn {
+  margin-bottom: 36px;
+}
+.hero div p {
+  font-size: 15px;
+}
+.hero-btn button:nth-child(2) {
+  background: transparent;
+  color: var(--gray);
+  border: 1px solid gray;
+}
+
+/* writing Media Queries from here */
+
+@media (max-width: 480px) {
+  .hero {
+    flex-wrap: wrap;
+    padding: 20px;
+  }
+  .hero .for-hero-img {
+    width: 570px;
+    padding: 50px;
+  }
+  .hero .slogan {
+    margin-bottom: 15px;
+    margin-top: 10px;
+  }
+  .hero .about {
+    margin-bottom: 15px;
+  }
+  .hero-btn button {
+    margin-bottom: 15px;
+  }
+  .hero .hero-btn {
+    margin-bottom: 15px;
+  }
+  nav{
+    flex-direction: column;
+    margin-bottom: 30px;
+
+  }
+  .logo{
+    margin-bottom: 10px;
+  }
+  .tabs{
+    margin-bottom: 10px;
+  }
+  .nav-btn{
+    display: none;
+  }
+
+}
