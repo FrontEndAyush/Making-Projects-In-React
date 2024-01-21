@@ -1,0 +1,17 @@
+.btn{
+  width: 57px;
+  height: 25px;
+color: white;
+all: unset;
+border: 1px solid salmon;
+
+border-radius: 3px;
+padding: 5px 6px;
+  background-color: #FF4343;
+  margin-top: 10px;
+}
+.btn_cont{
+  display: flex;
+justify-content: end;
+padding-right: 8px;
+}

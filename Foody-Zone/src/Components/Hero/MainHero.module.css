@@ -1,0 +1,27 @@
+.container {
+  background: url("/bgLogo/bg.png");
+  height: calc(100vh - 241px);
+  background-position: center;
+
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  display: flex;
+  flex-wrap: wrap;
+}
+.cardList {
+  max-width: 1080px;
+  display: flex;
+  margin: auto;
+  flex-wrap: wrap;
+}
+
+@media screen and (max-width: 430px) {
+  .container {
+    height: fit-content;
+
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+}

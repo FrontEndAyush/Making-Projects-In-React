@@ -1,0 +1,26 @@
+.card {
+  max-width: 340px;
+  height: 167px;
+  background-color: red;
+  display: flex;
+  background-color: #72393905;
+  border-radius: 12px;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+  border-bottom-right-radius: 12px;
+  border-bottom-left-radius: 12px;
+  color: white;
+  align-items: center;
+  backdrop-filter: blur(12px);
+
+  border: 1px solid #3e3833;
+
+  margin: 20px auto;
+}
+
+.card h5 {
+  margin-bottom: 10px;
+}
+.card p {
+  font-size: 12px;
+}
