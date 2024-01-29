@@ -1,0 +1,70 @@
+.score_num {
+  height: 151px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.container {
+  width: 1280px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: auto;
+}
+
+.main_dice{
+  text-align: center;
+}
+.main_dice p{
+  font-size: 24px;
+  font-weight: 300;
+}
+.score_num h1 {
+  font-size: 100px;
+  font-weight: 300px;
+  line-height: 80px;
+  text-align: center;
+}
+
+.score_num h4 {
+  font-size: 24px;
+  font-weight: 500;
+}
+.forNumbs h4 {
+  text-align: right;
+  width: 100%;
+}
+
+.main_dice {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+
+  align-items: center;
+ 
+}
+.main_dice img{
+  cursor: pointer;
+}
+
+
+.text{
+  text-align: left;
+  width: 770px;
+  height: 175px;
+  padding-left: 20px;
+  background-color: #FBF1F1;
+  padding-top: 20px;
+  margin-top: 5px;
+
+}
+.text h3{
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+.text p{
+  font-size: 16px;
+
+}

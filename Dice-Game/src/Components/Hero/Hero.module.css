@@ -1,0 +1,17 @@
+.container {
+  max-width: 1182px;
+  height: 100vh;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  align-items: center;
+}
+
+.container h1 {
+  font-size: 90px;
+  font-weight: 700;
+}
+.btn_cont {
+  display: flex;
+  justify-content: end;
+}
